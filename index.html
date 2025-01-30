@@ -6,11 +6,17 @@
     <link rel="icon" href="https://pixelsafari.neocities.org/favicon/animals/fishsharkwhale.gif">
     <style>
       body {
-        background-color: #a090cc
+        display: block;
+        margin: 0px;
+        background-color: #a090cc;
+
       }
 
       section {
-        margin: 5vw
+        margin: 5vw;
+        padding: 2vw;
+        border: 10px ridge #9080bc;
+        border-radius: 50px
       }
 
       h1 {
@@ -18,7 +24,7 @@
         font-family: "Snell Roundhand", Allura, cursive;
         display: inline-block;
         background-color: #ffd537;
-        border: 5px dotted rgb(51, 61, 161);
+        border: 5px dotted #5161f1;
         padding: 5px
       }
 
@@ -31,6 +37,11 @@
         font-family: "Comic Sans MS", "Trebuchet MS", sans-serif;
         color: royalblue
       }
+      
+      .centered {
+        display: block;
+        margin: auto;
+      }
 
       .button {
         background-color: white;
@@ -38,17 +49,19 @@
         border-radius: 10px;
         color: black;
         padding: 8px;
+        text-align: center;
         display: inline-block;
         font-size: 16px;
-        margin: 2px;
-        transition-duration: 0.4s;
+        width: 250px;
+        transition: all 0.75s;
         cursor: pointer;
-        font-family: Papyrus
+        font-family: Luminari, Impact, fantasy
       }
-
       .button:hover {
+        width: 275px;
         background-color: royalblue;
         color: white;
+        box-shadow: 8px 8px 20px 5px black;
       }
 
       #ps {
@@ -59,9 +72,9 @@
   <body>
     <section>
       <h1>Dear Internet,</h1><br>
-      <img src="https://bettysgraphics.neocities.org/images/web%20graphics/welcome%205.gif" alt="welcome to my website" style="height: 100px">
-      <img src="https://bettysgraphics.neocities.org/images/holiday/skull%2011.gif" alt="awesome skull smoking a cigarette">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Muybridge_race_horse_~_big_transp.gif" alt="the horse in motion" style="height: 100px">
+      <img src="https://bettysgraphics.neocities.org/images/web%20graphics/welcome%205.gif" alt="welcome to my website" style="width: 25vw">
+      <img src="https://bettysgraphics.neocities.org/images/holiday/skull%2011.gif" alt="awesome skull smoking a cigarette" style="width: 25vw">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Muybridge_race_horse_~_big_transp.gif" alt="the horse in motion" style="width: 25vw">
       <p>
         I wasn't really a huge proponent of the Web as a child. My family's computer, running Windows Vista, could run everything that I wanted to use without requiring a connection. CD-ROM games, iTunes, movies. Everything was encoded on discs that I could hold and put into the computer. Kinda cool. I knew you were around; my dad was always on Firefox, looking at comics or playing flash games. But I was satisfied with the discs. One day, I saw something that was too intriguing to pass up. My dad was always on a site called
         <a href="https://armorgames.com/">Armor Games,</a> where he had one game in particular that he would play obsessively:
@@ -78,15 +91,15 @@
         <a href="https://www.espn.com/fantasy/football/">a</a>
         <a href="https://twitter.com">c</a>
         <a href="https://rateyourmusic.com/">e</a>
-        <a href="https://letterboxd.com">s</a> people have carved out on your wide expanses. I've had good times, I've had bad, but through it all, there was you. I really appreciate the power you have to connect people, and to be honest, it's impossible to imagine what the world would be like without those connections. So for that, I am grateful. 
+        <a href="https://letterboxd.com">s</a> people have carved out on your wide expanses. I've had good times, I've had bad, but through it all, there was you. I really appreciate the power you have to connect people, and to be honest, it's impossible to imagine what the world would be like without those connections. So for that, I am grateful.
       </p>
       <p>Now and forever, thanks for everything!</p>
       <p>Alex :)</p><br>
       <p id="ps">P.S. CLICK THIS BUTTON!</p>
-      <a class="button" href="https://rotatingsandwiches.com/">CLICK HERE!</a><br>
-      <img src="https://teppyslayouts.neocities.org/img/graphics/teppy-dog-game.png" alt="cute dog with video game controller"><br>
-      <img src="https://bettysgraphics.neocities.org/images/gadgets/mac%2013.gif" alt="made with a mac"><br>
-      <a href="https://upload.wikimedia.org/wikipedia/commons/6/67/Steve_Jobs_Headshot_2010.JPG">word up to woz</a>
+      <a class="button" href="https://rotatingsandwiches.com/">CLICK HERE FOR SANDWICHES!</a><br>
+      <img src="https://teppyslayouts.neocities.org/img/graphics/teppy-dog-game.png" alt="cute dog with video game controller" class="centered"><br>
+      <img src="https://bettysgraphics.neocities.org/images/gadgets/mac%2013.gif" alt="made with a mac" class="centered"><br>
+      <a href="https://upload.wikimedia.org/wikipedia/commons/6/67/Steve_Jobs_Headshot_2010.JPG" class="centered">word up to woz</a>
     </section>
   </body>
 </html>
