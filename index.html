@@ -11,18 +11,38 @@
         background-color: #a090cc;
 
       }
-      
-/*    this is from manuela's site    */
+
+      /*    this is from manuela's site    */
       @keyframes textColorChange {
-          0% { color: white; }
-          16% { color: #ffd47e; }
-          33% { color: #ffb440; }
-          50% { color: orange; }
-          66% { color: #ffb440; }
-          83% { color: #ffd47e; }
-          100% { color: white; }
-    
+        0% {
+          color: white;
         }
+
+        16% {
+          color: #ffd47e;
+        }
+
+        33% {
+          color: #ffb440;
+        }
+
+        50% {
+          color: orange;
+        }
+
+        66% {
+          color: #ffb440;
+        }
+
+        83% {
+          color: #ffd47e;
+        }
+
+        100% {
+          color: white;
+        }
+
+      }
 
       section {
         margin: 5vw;
@@ -41,8 +61,8 @@
         padding: 5px;
         transition: all 1s
       }
-      
-/*    this is from toby's site    */
+
+      /*    this is from toby's site    */
       h1:hover {
         box-shadow: 2vh 2vh 0vh 0vh #a7840b;
         border: 8px dotted #5161f1
@@ -58,7 +78,7 @@
         color: royalblue;
         cursor: pointer;
       }
-      
+
       .centered {
         display: block;
         margin: auto;
@@ -78,6 +98,7 @@
         cursor: pointer;
         font-family: Luminari, Impact, fantasy
       }
+
       .button:hover {
         width: 275px;
         background-color: royalblue;
@@ -116,19 +137,18 @@
       <p id="ps">P.S. CLICK THIS BUTTON!</p>
       <a class="button" onclick="openLink()">CLICK HERE FOR A COOL WEBSITE!</a><br>
       <img src="https://teppyslayouts.neocities.org/img/graphics/teppy-dog-game.png" alt="cute dog with video game controller" class="centered"><br>
-      <img src="https://bettysgraphics.neocities.org/images/gadgets/mac%2013.gif" alt="made with a mac" class="centered"><br>
-      <a href="https://upload.wikimedia.org/wikipedia/commons/6/67/Steve_Jobs_Headshot_2010.JPG" class="centered">word up to woz</a>
+      <img src="https://bettysgraphics.neocities.org/images/gadgets/mac%2013.gif" alt="made with a mac" class="centered">
     </section>
-<!--   Script below stolen from https://stackoverflow.com/questions/24514214/open-a-random-page-using-javascript/24514636 and then changed so that it's better   -->
+    <!--   Script below stolen from https://stackoverflow.com/questions/24514214/open-a-random-page-using-javascript/24514636 and then changed so that it's better   -->
     <script type="text/javascript">
       const links = ["https://red-atagi.github.io/letter-to-the-internet/", "https://bbroscius.github.io/", "https://ncadiche.github.io/letter-to-internet/", "https://tchan1002.github.io/open-letter/", "https://dianachu0209.github.io/letter-to-internet/", "https://progamer-chef.github.io/DI-1/", "https://thegoatannie.github.io/css_letter/", "https://shfessuh.github.io/internet_letter/", "https://sanaajade.github.io/DearInternet_Sanaa/", "https://ronthekiehn.github.io/internet-letter/", "https://oaobielodan.github.io/my-open-letter/", "https://oluwalonimi2004.github.io/Dearest-Internet/", "https://manuelapinheiro.github.io/letter_to_the_internet_part1/", "https://tigo-poncedeleon.github.io/an-open-letter-to-the-internet/", "https://yruann.github.io/letter-to-internet/", "https://abigailstarr.github.io/internet-letter/"];
-      
+
       function openLink() {
-      const i = Math.floor(Math.random() * links.length);
+        const i = Math.floor(Math.random() * links.length);
         window.open(links[i], '_blank').focus();
         return false;
-        }
-//-->
-</script>
+      }
+      //-->
+    </script>
   </body>
 </html>
