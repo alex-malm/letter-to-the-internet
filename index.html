@@ -11,6 +11,18 @@
         background-color: #a090cc;
 
       }
+      
+/*    this is from manuela's site    */
+      @keyframes textColorChange {
+          0% { color: white; }
+          16% { color: #ffd47e; }
+          33% { color: #ffb440; }
+          50% { color: orange; }
+          66% { color: #ffb440; }
+          83% { color: #ffd47e; }
+          100% { color: white; }
+    
+        }
 
       section {
         margin: 5vw;
@@ -26,7 +38,14 @@
         display: inline-block;
         background-color: #ffd537;
         border: 5px dotted #5161f1;
-        padding: 5px
+        padding: 5px;
+        transition: all 1s
+      }
+      
+/*    this is from toby's site    */
+      h1:hover {
+        box-shadow: 2vh 2vh 0vh 0vh #a7840b;
+        border: 8px dotted #5161f1
       }
 
       p {
@@ -62,7 +81,7 @@
       .button:hover {
         width: 275px;
         background-color: royalblue;
-        color: white;
+        animation: textColorChange 5s infinite;
         box-shadow: 8px 8px 20px 5px black;
       }
 
