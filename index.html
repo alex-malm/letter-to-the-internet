@@ -97,10 +97,21 @@
       <p>Now and forever, thanks for everything!</p>
       <p>Alex :)</p><br>
       <p id="ps">P.S. CLICK THIS BUTTON!</p>
-      <a class="button" href="https://rotatingsandwiches.com/">CLICK HERE FOR SANDWICHES!</a><br>
+      <a class="button" onclick="openLink()">CLICK HERE FOR SANDWICHES!</a><br>
       <img src="https://teppyslayouts.neocities.org/img/graphics/teppy-dog-game.png" alt="cute dog with video game controller" class="centered"><br>
       <img src="https://bettysgraphics.neocities.org/images/gadgets/mac%2013.gif" alt="made with a mac" class="centered"><br>
       <a href="https://upload.wikimedia.org/wikipedia/commons/6/67/Steve_Jobs_Headshot_2010.JPG" class="centered">word up to woz</a>
     </section>
+<!--   Script below stolen from https://stackoverflow.com/questions/24514214/open-a-random-page-using-javascript/24514636 and then changed so that it's better   -->
+    <script type="text/javascript">
+      const links = ["https://red-atagi.github.io/letter-to-the-internet/", "https://bbroscius.github.io/", "https://ncadiche.github.io/letter-to-internet/", "https://tchan1002.github.io/open-letter/", "https://dianachu0209.github.io/letter-to-internet/", "https://progamer-chef.github.io/DI-1/", "https://thegoatannie.github.io/css_letter/", "https://shfessuh.github.io/internet_letter/", "https://sanaajade.github.io/DearInternet_Sanaa/", "https://ronthekiehn.github.io/internet-letter/", "https://oaobielodan.github.io/my-open-letter/", "https://oluwalonimi2004.github.io/Dearest-Internet/", "https://manuelapinheiro.github.io/letter_to_the_internet_part1/", "https://tigo-poncedeleon.github.io/an-open-letter-to-the-internet/", "https://yruann.github.io/letter-to-internet/", "https://abigailstarr.github.io/internet-letter/"];
+      
+      function openLink() {
+      const i = Math.floor(Math.random() * links.length);
+        parent.location = links[i];
+        return false;
+        }
+//-->
+</script>
   </body>
 </html>
